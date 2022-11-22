@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
-    <title>CINEMA</title>
+    <title>KINOWE MIASTO</title>
 </head>
 <body>
 <header>
@@ -19,23 +19,20 @@
         </form>
     </div>  
 </header>
-    <div id='content'>
+    <div id='content'></div>
     <div id='screen'></div>
-    <div id='places'>
-    </div>
-    </div>
+    <div id='places'></div>
+    
     <script>
         var placeTab = []
         let contener = document.getElementById("places")
-        for(let i = 0; i<232; i++){
-
+        for(let i = 0; i<231; i++){
             let place = document.createElement("div")
             place.id = "place" + i
             place.className = "freeplace"
             contener.appendChild(place)
         }
-        
-        for(let i =1;i<232;i++){
+        for(let i =1;i<231;i++){
 
             let place = document.getElementById('place' + i)
             place.onclick = function(){
@@ -50,18 +47,15 @@
 
     </script>
     <footer>
-
     <div id='legend'>
         <div     class="show"style="background-color:lime;" >000</div>- WOLNE<br/>
         <div   class="show"style="background-color:orange;" >000</div>- WYBRANE<br/>
         <div   class="show" style="background-color:red;">000</div>- ZAJĘTE<br/>
     </div>
     <div id='all'>
-
     <form action="#" method="post">
         <label>
             <input type="text" name="data" id="secret">
-
             <div id='imps'>
                 IMIĘ:  <input type="text" name="name" >
                 NUM.: <input type="text" name="number">
@@ -71,7 +65,6 @@
         </label>
     </form>
     </div>
-
     </footer>
 </body>
 </html>
