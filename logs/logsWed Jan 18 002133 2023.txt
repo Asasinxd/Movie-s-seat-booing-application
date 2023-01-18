@@ -1,0 +1,10 @@
+Rejestr - ELEMENTY DODANE DO BAZY
+-----------------------------------------
+Imię Nazwisko: Jakub Lipka
+Numer telefonu: 603304484
+Liczba zarezerwowanych miejsc: 2
+-----------------------------------------
+Imię Nazwisko: Piotr Saletra
+Numer telefonu: 603728403
+Liczba zarezerwowanych miejsc: 4
+-----------------------------------------

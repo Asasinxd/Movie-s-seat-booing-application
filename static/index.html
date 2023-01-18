@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="svg/favicon.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Seat Booking</title>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="module">clearAndRedisplayHall()</script>
+  </head>
+  <body>
+    <script src="welcome.js"></script>
+    <section class="main-content">
+      <div class="hamburger-menu" onclick="menuBar()">
+        <div class="hamburger"></div>
+      </div>
+      <form id="myForm"></form>
+        <nav class="sliding-navbar"><div id="cross"></div></nav>
+      </form>
+      <div class="mask"></div>
+      <div class="content-wrapper"></div>
+    </section>
+    <div class="movie-container">
+      <ul class="showcase">
+        <li><div class="seat"></div><small>Available</small></li>
+        <li><div class="seat selected"></div><small>Selected</small></li>
+        <li><div class="seat sold"></div><small>Sold</small></li>
+      </ul>
+      <div class="container">
+        <div class="screen">
+          <div id="youtube-video"></div>
+        </div>
+      </div>
+    </div>
+    <div class="text-container">
+      <p class="text"></p>You have selected <span id="count">0</span> seat for a price of <span id="total"> 0 </span> PLN</p>
+    </div>
+    <div class="form-container">
+      <form id="reservation">
+        <input type="hidden" name="seats" id="secret">
+        <p class="subtext">Name:</p> <input id="client-name" name="name" type="text"><br>
+        <p class="subtext">Phone Number:</p> <input id="phone-number" name="number" type="digit"><br>
+        <button class="button" id="formSubmit" type="button" onclick="document.getElementById('secret').setAttribute('value', reserved);sendForm()">Zarezerwuj</button>
+      </form>
+    </div>
+    <script src="script.js"></script> 
+  </body>
+</html>

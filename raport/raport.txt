@@ -1,0 +1,10 @@
+Raport - ELEMENTY DODANE DO BAZY
+-----------------------------------------
+Imię Nazwisko: Piotr Zietek
+Numer telefonu: 503304762
+Liczba zazerwowanych miejsc: 2
+-----------------------------------------
+Czas działania serwera: 37 sekund
+Liczba zapytań: 11
+Liczba rezerwacji: 1
+------------------------------------------
