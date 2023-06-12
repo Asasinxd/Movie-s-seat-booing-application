@@ -1,4 +1,4 @@
-﻿# cpp_university_project
+﻿# Movie's seats bookking application
 
 Requirements:
 ASIO => library for cpp networking 
