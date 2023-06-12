@@ -23,6 +23,7 @@ Project contains:
 Project is created with:
 * C++ 17
 * JavaScript
+* HTML 5
 * CSS 3
 * crow => cpp web framework 
 
